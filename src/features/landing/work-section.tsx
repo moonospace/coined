@@ -1,12 +1,8 @@
-import { SectionLabel } from "@shared/components";
 import type * as React from "react";
 
 export function WorkSection(): React.ReactElement {
   return (
     <section className="flex flex-col items-center py-28" id="work">
-      <div className="flex items-center">
-        <SectionLabel>Works</SectionLabel>
-      </div>
       <h2 className="mt-10 text-center font-bold font-bricolage text-5xl leading-tight tracking-tight">
         Our top
         <br />

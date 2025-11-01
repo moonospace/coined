@@ -9,7 +9,7 @@ export function WebDesignDevServiceItem(): React.ReactElement {
           <div className="flex w-full items-center rounded-2xl p-4">
             <i className="fi fi-sc-check-circle transition-all duration-300" />
             <h3 className="ml-2 text-pretty font-medium leading-tight">
-              Web design & development
+              Websites
             </h3>
 
             <i className="fi fi-br-qr-scan absolute inset-y-0 right-4 text-xs opacity-0 transition-all duration-300 group-hover:opacity-100" />
@@ -19,7 +19,7 @@ export function WebDesignDevServiceItem(): React.ReactElement {
       <DialogContent>
         <div className="flex flex-col">
           <h3 className="text-pretty font-bricolage font-medium text-xl leading-tight">
-            Web design & development
+            Websites
           </h3>
 
           <p className="mt-6 text-pretty text-foreground/60 leading-relaxed">

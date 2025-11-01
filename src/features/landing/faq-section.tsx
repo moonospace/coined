@@ -3,7 +3,6 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-  SectionLabel,
 } from "@shared/components";
 import type * as React from "react";
 
@@ -56,9 +55,6 @@ function FAQItem({ faq, id }: { faq: FAQ; id: string }): React.ReactElement {
 export function FAQSection(): React.ReactElement {
   return (
     <section className="flex flex-col items-center py-28" id="faqs">
-      <div className="flex items-center">
-        <SectionLabel>FAQs</SectionLabel>
-      </div>
       <h2 className="mt-10 text-center font-medium tablet:text-5xl text-3xl leading-tight tracking-tight">
         Most asked
         <br />

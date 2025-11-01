@@ -1,4 +1,3 @@
-import { SectionLabel } from "@shared/components";
 import type * as React from "react";
 import { AutomationAIServiceItem } from "./automation-ai";
 import { BrandingDesignServiceItem } from "./branding-design";
@@ -11,9 +10,6 @@ import { WebDesignDevServiceItem } from "./web-design-dev";
 export function ServiceSection(): React.ReactElement {
   return (
     <section className="flex flex-col items-center py-28" id="services">
-      <div className="flex items-center">
-        <SectionLabel>Services</SectionLabel>
-      </div>
       <h2 className="mt-10 text-center font-medium tablet:text-5xl text-3xl leading-tight tracking-tight">
         We do all in
         <br />

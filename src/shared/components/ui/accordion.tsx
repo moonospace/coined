@@ -42,7 +42,7 @@ const AccordionTrigger = ({
   <AccordionPrimitive.Header className="flex">
     <AccordionPrimitive.Trigger
       className={mergeClass(
-        "flex flex-1 cursor-pointer items-center justify-between gap-3 text-left font-medium text-sm transition-all duration-300 [&[data-state=open]>i]:rotate-180",
+        "flex flex-1 cursor-pointer items-center justify-between gap-3 text-left font-medium transition-all duration-300 [&[data-state=open]>i]:rotate-180",
         className
       )}
       ref={ref}
@@ -66,7 +66,7 @@ const AccordionContent = ({
   > | null>;
 }) => (
   <AccordionPrimitive.Content
-    className="overflow-hidden text-foreground/60 text-sm leading-6 transition-all duration-700"
+    className="overflow-hidden text-foreground/60 leading-6 transition-all duration-700"
     ref={ref}
     {...props}
   >

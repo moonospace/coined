@@ -9,7 +9,7 @@ export function ConversionOptimizationServiceItem(): React.ReactElement {
           <div className="flex w-full items-center rounded-2xl p-4">
             <i className="fi fi-sc-check-circle" />
             <h3 className="ml-3 text-pretty font-bricolage font-medium leading-tight">
-              Conversion optimization
+              Optimization
             </h3>
 
             <i className="fi fi-br-qr-scan absolute inset-y-0 right-4 text-xs opacity-0 transition-all duration-300 group-hover:opacity-100" />
@@ -19,7 +19,7 @@ export function ConversionOptimizationServiceItem(): React.ReactElement {
       <DialogContent>
         <div className="flex flex-col">
           <h3 className="text-pretty font-bricolage font-medium text-xl leading-tight">
-            Conversion optimization
+            Optimization
           </h3>
 
           <p className="mt-6 text-pretty text-foreground/60 leading-relaxed">

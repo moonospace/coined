@@ -1,9 +1,5 @@
-import { SectionLabel } from "@shared/components";
-
-const missions: string[] = [
+const benefits: string[] = [
   "Unlimited & flexible scaling",
-  "Full ownership & transparent",
-  "Years of experiences",
   "Pause or cancel anytime",
   "Rapid & reliable delivery",
   "Satisfaction guaranteed",
@@ -13,11 +9,11 @@ const missions: string[] = [
   "Result based performance",
 ];
 
-function MissionItem({ mission }: { mission: string }) {
+function BenefitItem({ benefit }: { benefit: string }) {
   return (
-    <li className="flex cursor-pointer items-center gap-2 text-foreground transition-all duration-300">
-      <i className="fi fi-sc-check-circle" />
-      {mission}
+    <li className="group hover:-translate-y-1 flex cursor-pointer items-center gap-2 text-foreground/60 transition-all duration-300 hover:text-foreground">
+      <i className="fi fi-sc-check-circle text-foreground/40 transition-all duration-300 group-hover:scale-95 group-hover:text-foreground" />
+      {benefit}
     </li>
   );
 }
@@ -25,9 +21,6 @@ function MissionItem({ mission }: { mission: string }) {
 export function BenefitSection() {
   return (
     <section className="flex flex-col items-center py-28" id="mission">
-      <div className="flex items-center">
-        <SectionLabel>Benefits</SectionLabel>
-      </div>
       <h2 className="mt-10 text-center font-medium tablet:text-5xl text-3xl leading-tight tracking-tight">
         Big deals
         <br />
@@ -41,9 +34,9 @@ export function BenefitSection() {
       </p>
 
       <div className="mt-16 flex w-full justify-center">
-        <ul className="flex flex-col gap-4">
-          {missions.map((mission, index) => (
-            <MissionItem key={index} mission={mission} />
+        <ul className="flex flex-col gap-5">
+          {benefits.map((benefit, index) => (
+            <BenefitItem benefit={benefit} key={index} />
           ))}
         </ul>
       </div>

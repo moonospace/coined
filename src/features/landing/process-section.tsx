@@ -1,5 +1,3 @@
-import { SectionLabel } from "@shared/components";
-
 type Process = {
   label: string;
   title: string;
@@ -57,9 +55,6 @@ function ProcessItem({ process }: { process: Process }) {
 export function ProcessSection() {
   return (
     <section className="flex flex-col items-center py-28" id="how-it-works">
-      <div className="flex items-center">
-        <SectionLabel>How it works</SectionLabel>
-      </div>
       <h2 className="mt-10 text-center font-medium tablet:text-5xl text-3xl leading-tight tracking-tight">
         Simple strategy
         <br />
