@@ -14,11 +14,9 @@ export default defineConfig({
     tailwindcss(),
     tanstackStart({
       prerender: {
-        enabled: true,
+        enabled: false,
         autoSubfolderIndex: true,
-        concurrency: 7,
         crawlLinks: true,
-        retryCount: 3,
       },
       srcDirectory: "src/app",
       sitemap: {
