@@ -21,7 +21,7 @@ export default defineConfig({
       srcDirectory: "src/app",
       sitemap: {
         enabled: true,
-        host: "https://www.tryweebo.site",
+        host: "https://www.thecoined.site",
       },
     }),
     react(),
