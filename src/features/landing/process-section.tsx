@@ -37,8 +37,6 @@ function ProcessItem({ process }: { process: Process }) {
           <i className="fi fi-sc-check-circle" />
           {label}
         </span>
-
-        <i className="fi fi-sr-bullet absolute -top-2 -right-2 text-foreground/50 text-lg" />
       </div>
 
       <h3 className="mt-3 text-pretty font-bricolage font-medium text-lg">

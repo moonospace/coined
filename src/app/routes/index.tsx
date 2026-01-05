@@ -1,7 +1,6 @@
 import {
   BenefitSection,
   CTASection,
-  FAQSection,
   HeroSection,
   PlanSection,
   ProcessSection,
@@ -13,7 +12,7 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: generatedMetadata({
-      title: "Your Business Growth & Success Partner | Sonibble",
+      title: "Your Business Growth & Success Partner | Coined",
       description:
         "We help small business, startups, and professional grow, scale & win the game",
     }),
@@ -29,7 +28,6 @@ function PageComponent() {
       <ProcessSection />
       <ServiceSection />
       <PlanSection />
-      <FAQSection />
       <CTASection />
     </div>
   );

@@ -38,7 +38,7 @@ export function CTASection(): React.ReactElement {
           variant={"primary"}
         >
           <a
-            href={"https://cal.com/nyomansunima/sonibble-intro-call"}
+            href={"https://cal.com/nyomansunima/connects"}
             rel="noopener"
             target="_blank"
           >

@@ -4,11 +4,11 @@ import type * as React from "react";
 export function HeroSection(): React.ReactElement {
   return (
     <section className="flex flex-col items-center py-28" id="hero">
-      <span className="flex items-center gap-2 rounded-2xl bg-green-100 px-4 py-1.5 text-green-600 text-sm">
-        <i className="fi fi-sc-heart" /> Loved by 100+ top businesses
+      <span className="flex items-center gap-2 rounded-2xl bg-fuchsia-100 px-4 py-1.5 text-fuchsia-600 text-sm">
+        <i className="fi fi-sc-heart" /> Loved by enterprises
       </span>
       <h2 className="mt-10 text-center font-medium tablet:text-5xl text-3xl leading-tight tracking-tight">
-        Your business
+        The businesses
         <br /> growth partner
       </h2>
 
@@ -25,7 +25,7 @@ export function HeroSection(): React.ReactElement {
           variant={"primary"}
         >
           <a
-            href={"https://cal.com/nyomansunima/sonibble-intro-call"}
+            href={"https://cal.com/nyomansunima/connects"}
             rel="noopener"
             target="_blank"
           >
