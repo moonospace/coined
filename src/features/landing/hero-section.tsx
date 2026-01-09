@@ -30,14 +30,14 @@ export function HeroSection() {
         </defs>
       </svg>
 
-      <h1 className="mt-6 font-medium text-xl tracking-tight">
+      <h1 className="mt-6 text-pretty font-medium text-xl tracking-tight">
         Coined help businesses to build products, ship faster & scale. Partners
-        with startups, enterprises and agencies. Ship websites, softwares,
-        tools, automations & branding.
+        with startups, enterprises & agencies. We ship stunning products &
+        brands.
       </h1>
-      <p className="mt-4 text-foreground/60">
-        We give you solutions to kickstart and grow your business. Get more
-        leads, sales, buyers & customers. Your ideas should move fast.
+      <p className="mt-4 text-pretty text-foreground/60">
+        We give solutions to kickstart and grow your business - Build now then
+        get more leads, sales, buyers & customers.
       </p>
       <div className="mt-10 flex items-center">
         <Button

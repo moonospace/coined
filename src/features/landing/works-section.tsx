@@ -11,22 +11,22 @@ const works: Work[] = [
   {
     image:
       "https://cdn.dribbble.com/userupload/46255328/file/3e6af72e054c746804de402920517778.webp?resize=2048x1536&vertical=center",
-    title: "Work 1",
+    title: "Oza",
   },
   {
     image:
       "https://cdn.dribbble.com/userupload/46206031/file/afdb862a3e00a37b47be8de23faeb150.png?resize=2048x1536&vertical=center",
-    title: "Work 2",
+    title: "Truecaller",
   },
   {
     image:
-      "https://cdn.dribbble.com/userupload/46255328/file/3e6af72e054c746804de402920517778.webp?resize=2048x1536&vertical=center",
-    title: "Work 3",
+      "https://cdn.dribbble.com/userupload/46017224/file/d85aa28050389514029bb52397b1a6f4.png?resize=2048x1536&vertical=center",
+    title: "Stowra",
   },
   {
     image:
-      "https://cdn.dribbble.com/userupload/46255328/file/3e6af72e054c746804de402920517778.webp?resize=2048x1536&vertical=center",
-    title: "Work 4",
+      "https://cdn.dribbble.com/userupload/45829599/file/73718d45323c989b35de2a04e3978f6b.png?resize=2048x1536&vertical=center",
+    title: "Scrypt",
   },
 ];
 
