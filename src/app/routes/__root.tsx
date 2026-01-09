@@ -1,7 +1,6 @@
 import { Button } from "@shared/components/ui/button";
 import styles from "@shared/styles/globals.css?url";
 import { createRootRoute, HeadContent, Scripts } from "@tanstack/react-router";
-import type * as React from "react";
 
 interface RootDocumentProps {
   children: React.ReactNode;
@@ -16,9 +15,6 @@ export const Route = createRootRoute({
       {
         name: "viewport",
         content: "width=device-width, initial-scale=1",
-      },
-      {
-        title: "Your Business Growth & Success Partner | Coined",
       },
     ],
     links: [
@@ -35,19 +31,15 @@ export const Route = createRootRoute({
   errorComponent: ErrorComponent,
 });
 
-function RootDocument({ children }: RootDocumentProps): React.ReactElement {
+function RootDocument({ children }: RootDocumentProps) {
   return (
-    <html lang="en" suppressHydrationWarning>
+    <html lang="en">
       <head>
         <HeadContent />
       </head>
       <body>
-        <div className="min-h-screen tablet:pt-16 pb-28 tablet:pb-56">
-          <div className="container mx-auto laptop:px-0 px-5">
-            <div className="mx-auto laptop:w-6/12 tablet:w-11/12 w-full">
-              {children}
-            </div>
-          </div>
+        <div className="container mx-auto px-5 pt-16 pb-20 lg:px-0">
+          <div className="mx-auto w-full md:w-11/12 lg:w-5/12">{children}</div>
         </div>
         <Scripts />
       </body>
@@ -55,7 +47,7 @@ function RootDocument({ children }: RootDocumentProps): React.ReactElement {
   );
 }
 
-function NotFondComponent(): React.ReactElement {
+function NotFondComponent() {
   return (
     <main className="flex flex-col">
       <section className="flex flex-col">
@@ -84,7 +76,7 @@ function NotFondComponent(): React.ReactElement {
   );
 }
 
-function ErrorComponent(): React.ReactElement {
+function ErrorComponent() {
   return (
     <main className="flex flex-col">
       <section className="flex flex-col">

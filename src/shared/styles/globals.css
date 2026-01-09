@@ -1,11 +1,6 @@
 /* Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 
-/* Icons */
-@import url("https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-chubby/css/uicons-solid-chubby.css");
-@import url("https://cdn-uicons.flaticon.com/3.0.0/uicons-bold-rounded/css/uicons-bold-rounded.css");
-@import url("https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css");
-
 /* Tailwindcss */
 @import "tailwindcss";
 @plugin "@tailwindcss/typography";
@@ -14,16 +9,9 @@
   --font-*: initial;
   --font-sans: "Inter", sans-serif;
 
-  --leading-tight: 1.1;
-
-  --breakpoint-*: initial;
-  --breakpoint-tablet: 40rem;
-  --breakpoint-laptop: 64rem;
-  --breakpoint-desktop: 80rem;
-
-  --color-background: hsl(0 0 100%);
+  --color-background: hsl(0 0 98%);
   --color-foreground: hsl(0 0 0%);
-  --color-surface: hsl(0 0 98%);
+  --color-surface: hsl(0 0 100%);
   --color-border: hsl(0 0 93%);
   --color-input: hsl(0 0 94%);
   --color-primary: hsl(0 0 0%);

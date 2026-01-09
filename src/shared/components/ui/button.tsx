@@ -3,7 +3,7 @@ import type * as React from "react";
 import { tv, type VariantProps } from "tailwind-variants/lite";
 
 const buttonVariants = tv({
-  base: "group relative flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap font-bricolage font-medium text-sm leading-none transition-all duration-300",
+  base: "group relative flex cursor-pointer items-center justify-center gap-2 whitespace-nowrap font-medium text-sm leading-none transition-all duration-300",
   variants: {
     variant: {
       primary: "bg-primary text-primary-foreground",
