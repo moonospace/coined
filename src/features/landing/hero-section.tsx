@@ -3,47 +3,47 @@ import { Button } from "@shared/components/ui/button";
 export function HeroSection() {
   return (
     <section className="flex flex-col">
-      <div className="flex">
-        <svg
-          fill="none"
-          height="36"
-          viewBox="0 0 512 512"
-          width="36"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <rect fill="black" height="512" rx="180" width="512" />
-          <g clip-path="url(#clip0_2_2)">
-            <path
-              d="M335.905 392.321C282.462 385.064 245.02 335.856 252.277 282.413C245.02 335.856 195.812 373.298 142.369 366.041L115.273 362.362L135.772 211.403C143.029 157.96 192.237 120.518 245.68 127.775L299.87 135.133C353.313 142.39 390.755 191.598 383.498 245.042L363 396L335.905 392.321Z"
+      <svg
+        className="cursor-pointer transition-all duration-300 hover:scale-95"
+        fill="none"
+        height="36"
+        viewBox="0 0 512 512"
+        width="36"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <rect fill="black" height="512" rx="180" width="512" />
+        <g clipPath="url(#clip0_2_2)">
+          <path
+            d="M335.905 392.321C282.462 385.064 245.02 335.856 252.277 282.413C245.02 335.856 195.812 373.298 142.369 366.041L115.273 362.362L135.772 211.403C143.029 157.96 192.237 120.518 245.68 127.775L299.87 135.133C353.313 142.39 390.755 191.598 383.498 245.042L363 396L335.905 392.321Z"
+            fill="white"
+          />
+        </g>
+        <defs>
+          <clipPath id="clip0_2_2">
+            <rect
               fill="white"
+              height="250"
+              transform="translate(363 396) rotate(-172.267)"
+              width="250"
             />
-          </g>
-          <defs>
-            <clipPath id="clip0_2_2">
-              <rect
-                fill="white"
-                height="250"
-                transform="translate(363 396) rotate(-172.267)"
-                width="250"
-              />
-            </clipPath>
-          </defs>
-        </svg>
-      </div>
+          </clipPath>
+        </defs>
+      </svg>
 
       <h1 className="mt-6 font-medium text-xl tracking-tight">
         Coined help businesses to build products, ship faster & scale. Partners
-        with startups, enterprises and agencies. We crafted websites, software,
+        with startups, enterprises and agencies. Ship websites, softwares,
         tools, automations & branding.
       </h1>
-      <p className="mt-3 text-foreground/60">
-        Get more leads, sales, buyers & customers. We give you solutions to
-        kickstart and grow your business. Your ideas should move fast.
+      <p className="mt-4 text-foreground/60">
+        We give you solutions to kickstart and grow your business. Get more
+        leads, sales, buyers & customers. Your ideas should move fast.
       </p>
       <div className="mt-10 flex items-center">
         <Button
           asChild
           className="transition-all duration-300 hover:-translate-y-0.5"
+          size="sm"
         >
           <a
             href="https://cal.com/nyomansunima/connects"
