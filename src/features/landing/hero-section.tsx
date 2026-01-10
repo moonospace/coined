@@ -4,7 +4,7 @@ export function HeroSection() {
   return (
     <section className="flex flex-col">
       <svg
-        className="cursor-pointer transition-all duration-300 hover:scale-95"
+        className="cursor-pointer transition-all duration-300 ease-out hover:scale-95"
         fill="none"
         height="36"
         viewBox="0 0 512 512"
@@ -42,7 +42,7 @@ export function HeroSection() {
       <div className="mt-10 flex items-center">
         <Button
           asChild
-          className="transition-all duration-300 hover:-translate-y-0.5"
+          className="transition-all duration-300 ease-out hover:scale-97"
           size="sm"
         >
           <a

@@ -32,7 +32,7 @@ const works: Work[] = [
 
 function WorkItem({ work }: WorksSectionProps) {
   return (
-    <div className="flex cursor-pointer rounded-xl border border-border border-dashed bg-surface p-1 transition-all duration-300 hover:-translate-y-0.5">
+    <div className="flex cursor-pointer rounded-xl border border-border border-dashed bg-surface p-1 transition-all duration-300 ease-out hover:scale-99">
       <img
         alt={work.title}
         className="h-52 w-full overflow-hidden rounded-lg object-cover md:h-96"

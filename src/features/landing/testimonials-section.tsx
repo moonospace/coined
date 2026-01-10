@@ -1,6 +1,6 @@
 function TestimonialItem() {
   return (
-    <div className="flex cursor-pointer flex-col rounded-xl border border-border border-dashed bg-surface p-5 transition-all duration-300 hover:-translate-y-0.5">
+    <div className="flex cursor-pointer flex-col rounded-xl border border-border border-dashed bg-surface p-5 transition-all duration-300 ease-out hover:scale-99">
       <p className="text-pretty md:p-3">
         " Coined really nailed the design & development, works perfectly.
         Everything work seamlessly and the design looks sick, fast delivery,
@@ -18,7 +18,7 @@ function TestimonialItem() {
         </div>
 
         <a
-          className="trtransition-all text-sm duration-300 hover:-translate-y-0.5"
+          className="text-sm transition-all duration-300 ease-out hover:scale-97 hover:text-foreground/60"
           href="https://moono.site"
           rel="noopener"
           target="_blank"
