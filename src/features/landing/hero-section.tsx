@@ -35,7 +35,7 @@ export function HeroSection() {
         with startups, enterprises & agencies. We ship stunning products &
         brands.
       </h1>
-      <p className="mt-4 text-pretty text-foreground/60">
+      <p className="mt-4 text-pretty text-foreground/60 leading-relaxed">
         Built products, brands & systems that lift the profits, increase
         efficiencies and reduce the costs.
       </p>
