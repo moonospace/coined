@@ -36,8 +36,8 @@ export function HeroSection() {
         brands.
       </h1>
       <p className="mt-4 text-pretty text-foreground/60">
-        We give solutions to kickstart and grow your business - Build now then
-        get more leads, sales, buyers & customers.
+        Built products, brands & systems that lift the profits, increase
+        efficiencies and reduce the costs.
       </p>
       <div className="mt-10 flex items-center">
         <Button
