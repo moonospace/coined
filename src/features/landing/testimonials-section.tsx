@@ -1,10 +1,26 @@
 function TestimonialItem() {
   return (
-    <div className="flex cursor-pointer flex-col rounded-xl border border-border border-dashed bg-surface p-5 transition-all duration-300 ease-out hover:scale-99">
-      <p className="text-pretty md:p-3">
-        " Coined really nailed the design & development, works perfectly.
+    <div className="group relative flex cursor-pointer flex-col rounded-xl border border-border border-dashed bg-surface p-5 transition-all duration-300 ease-out hover:scale-99">
+      <svg
+        className="absolute top-5 right-5 -rotate-6"
+        fill="none"
+        height="20"
+        stroke="currentColor"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        width="20"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" />
+        <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z" />
+      </svg>
+
+      <p className="text-pretty leading-relaxed md:p-3">
+        Coined really nailed the design & development, works perfectly.
         Everything work seamlessly and the design looks sick, fast delivery,
-        seamless communications. Just amazing work. "
+        seamless communications. Just amazing work.
       </p>
 
       <div className="mt-5 flex items-center justify-between border-border border-t border-dashed pt-4">
@@ -18,7 +34,7 @@ function TestimonialItem() {
         </div>
 
         <a
-          className="text-sm transition-all duration-300 ease-out hover:scale-97 hover:text-foreground/60"
+          className="text-sm transition-all duration-300 ease-out hover:text-foreground/60"
           href="https://moono.site"
           rel="noopener"
           target="_blank"
