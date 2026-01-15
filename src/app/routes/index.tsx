@@ -9,9 +9,9 @@ import { createFileRoute } from "@tanstack/react-router";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: generatedMetadata({
-      title: "The Businesses Growth Partner | Coined",
+      title: "The Businesses Growth & Success Partner | Coined",
       description:
-        "We help small business, startups, and professional grow, scale & win the game",
+        "We help small business, startups, and professional grow, scale & win the game by create stunning products, ship faster & scale into millions.",
     }),
   }),
   component: RouteComponent,
