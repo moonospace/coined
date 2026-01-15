@@ -4,7 +4,7 @@ export function HeroSection() {
   return (
     <section className="flex flex-col">
       <svg
-        className="cursor-pointer transition-all duration-300 ease-out hover:scale-95"
+        className="cursor-pointer transition-transform duration-300 ease-out hover:-translate-y-0.5"
         fill="none"
         height="36"
         viewBox="0 0 512 512"
@@ -36,14 +36,15 @@ export function HeroSection() {
         brands.
       </h1>
       <p className="mt-4 text-pretty text-foreground/60 leading-relaxed">
-        Built products, brands & systems that lift the profits, increase
-        efficiencies and reduce the costs.
+        Built softwares, websites, brands & systems that lift the profits,
+        increase efficiencies and reduce the costs.
       </p>
       <div className="mt-10 flex items-center">
         <Button
           asChild
-          className="transition-all duration-300 ease-out hover:scale-97"
+          className="transition- duration-300 ease-out hover:-translate-y-0.5"
           size="sm"
+          variant="primary"
         >
           <a
             href="https://cal.com/nyomansunima/connects"
