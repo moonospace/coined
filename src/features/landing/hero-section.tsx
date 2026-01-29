@@ -4,7 +4,7 @@ export function HeroSection() {
   return (
     <section className="flex flex-col">
       <svg
-        className="cursor-pointer transition-transform duration-300 ease-out hover:-translate-y-0.5"
+        className="cursor-pointer transition-transform duration-300 hover:-translate-y-0.5"
         fill="none"
         height="36"
         viewBox="0 0 512 512"
@@ -31,18 +31,18 @@ export function HeroSection() {
       </svg>
 
       <h1 className="mt-6 text-pretty font-medium text-xl tracking-tight">
-        Coined help businesses to build products, ship faster & scale. Partners
-        with startups, enterprises & agencies. We ship stunning products &
-        brands.
+        We ship stunning
+        <br />
+        products & brands.
       </h1>
-      <p className="mt-4 text-pretty text-foreground/60 leading-relaxed">
+      <p className="mt-4 text-foreground/60 leading-relaxed text-balance">
         Built softwares, websites, brands & systems that lift the profits,
         increase efficiencies and reduce the costs.
       </p>
       <div className="mt-10 flex items-center">
         <Button
           asChild
-          className="transition- duration-300 ease-out hover:-translate-y-0.5"
+          className="transition- duration-300 hover:-translate-y-0.5"
           size="sm"
           variant="primary"
         >

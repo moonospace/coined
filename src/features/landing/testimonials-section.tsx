@@ -1,6 +1,6 @@
 function TestimonialItem() {
   return (
-    <div className="group relative flex cursor-pointer flex-col rounded-xl border border-border border-dashed bg-surface p-5 transition-transform duration-300 ease-out hover:-translate-y-0.5">
+    <div className="group relative flex cursor-pointer flex-col rounded-xl border border-border border-dashed bg-surface p-5 transition-transform duration-300 hover:-translate-y-0.5">
       <svg
         className="absolute top-5 right-5 -rotate-6"
         fill="none"
@@ -34,7 +34,7 @@ function TestimonialItem() {
         </div>
 
         <a
-          className="text-sm transition-all duration-300 ease-out hover:text-foreground/60"
+          className="text-sm transition-all duration-300 hover:text-foreground/60"
           href="https://moono.site"
           rel="noopener"
           target="_blank"
