@@ -30,12 +30,11 @@ export function HeroSection() {
         </defs>
       </svg>
 
-      <h1 className="mt-6 text-pretty font-medium text-xl tracking-tight">
-        We ship stunning
-        <br />
-        products & brands.
+      <h1 className="mt-6 text-pretty font-medium text-xl tracking-tight sm:text-balance">
+        We partners with startups and enterprises to build their products and
+        brands.
       </h1>
-      <p className="mt-4 text-foreground/60 leading-relaxed text-balance">
+      <p className="mt-4 text-pretty text-foreground/60 leading-relaxed">
         Built softwares, websites, brands & systems that lift the profits,
         increase efficiencies and reduce the costs.
       </p>
